@@ -1,4 +1,4 @@
-IMAGE_NAME = shivaanta/centos8
+IMAGE_NAME = devops-docker/centos8
 MAKE_COMMON ?= ../
-include $(MAKE_COMMON)/docker.mk
-include $(MAKE_COMMON)/common.mk
+include docker.mk
+include common.mk
